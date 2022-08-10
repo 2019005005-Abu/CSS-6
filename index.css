@@ -1,0 +1,261 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+/* 
+ */
+/*
+===============================================
+==================================================
+=======================================================
+*/
+/* .drop_drwomContainer_2{
+    display: inline;
+    position: relative;
+}
+.dropDownConetent_2{
+   position: absolute;
+   top: 30px;
+   right:0px;
+   background-color: blue;
+   text-align: center;
+   min-width: 200px;
+   display: none;
+} */
+/* .dropDownConetent_2 a{
+    display: block;
+}
+.drop_drwomContainer_2:hover .dropDownConetent_2{
+    display: block;
+} */
+
+/*
+Making Responsive website
+*/
+/* @media screen and (min-width:600px) {
+   body{
+    background-color: brown;
+   } 
+   h1{
+    color: white;
+   }
+   h2{
+    display: none;
+   }
+}
+
+@media screen and (min-width:768px) {
+    body{
+        background-color:coral ;
+    }
+    h1{
+      text-align: center;  
+    }
+    h2{
+      text-align: right;
+    }
+    p{
+        text-align: justify;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    body{
+        background-color: aquamarine;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+    text-align: justify;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    body{
+        background-color:#40868b;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+    text-align: justify;
+    }
+    
+} */
+/* .menu{
+    background-color: #3b5998;
+    display: flex;
+    justify-content:flex-end;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.menu a:hover{
+    background-color: grey;
+}
+@media screen and (max-width:600px){
+  .menu{
+    background-color: #40868b;
+     flex-direction: column;
+     padding: 10px 20px;
+
+  }
+  .menu a{
+    background-color: indigo;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+  }
+} */
+/* .colum_1,.colum_2,.colum_3,.colum_4{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+@media screen and (max-width:992px){
+    .colum_1,.colum_2,.colum_3,.colum_4{
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:992px){
+    .colum_1,.colum_2,.colum_3,.colum_4{
+        width: 100%;
+        padding: 10px;
+    }
+} */
+
+/* .row .colIs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.colum_1,
+.colum_2,
+.colum_3,
+.colum_4{
+ flex: 25%;
+}
+@media screen and (max-width:992px) {
+.colum_1,
+.colum_2,
+.colum_3,
+.colum_4{
+ flex: 25%;
+}
+}
+
+@media screen and (max-width:600px) {
+    .row .colIs{
+        flex-direction: column;
+    }
+    } */
+    .col-1{
+     width: 8.33%;
+    }
+    .col-2{
+        width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+    [class*="col-"]{
+        float: left;
+        padding: 10px;
+    }
+    .row::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    @media screen and (max-width:768px) {
+        [class*="col-"]{
+            width: 100%;
+        }
+        .nav-menu a{
+            text-align: center;
+            background-color: aqua;
+            margin: 10px;
+        }
+    }
+    @media screen and (max-width:600px) {
+          /*
+          For Tablet
+          */
+          .col-s-1{
+            width: 8.33%;
+           }
+           .col-s-2{
+               width: 16.66%;
+           }
+           .col-s-3{
+               width: 25%;
+           }
+           .col-s-4{
+               width: 33.33%;
+           }
+           .col-s-5{
+               width: 41.66%;
+           }
+           .col-s-6{
+               width: 50%;
+           }
+           .col-s-7{
+               width: 58.33%;
+           }
+           .col-s-8{
+               width: 66.66%;
+           }
+           .col-s-9{
+               width: 75%;
+           }
+           .col-s-10{
+               width: 83.33%;
+           }
+           .col-s-11{
+               width: 91.66%;
+           }
+           .col-s-12{
+               width: 100%;
+           }
+    }
